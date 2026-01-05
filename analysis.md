@@ -44,7 +44,7 @@ The full extraction prompt is provided in **Appendix A**.
 
 ## 3. The SubjECTive-QA Dataset and Pre-trained Models
 
-To analyze communication style, this project builds on the **SubjECTive-QA** dataset introduced in *SubjECTive-QA: Measuring Subjectivity in Question-Answering Systems* (arXiv:2410.20651).
+To analyze communication style, this project builds on the **SubjECTive-QA** dataset introduced in *SubjECTive-QA: Measuring Subjectivity in Question-Answering Systems*.
 
 The SubjECTive-QA dataset consists of question-answer pairs annotated for multiple subjective attributes, including:
 
