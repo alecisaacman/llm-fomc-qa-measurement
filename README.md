@@ -67,3 +67,25 @@ Detailed results and correlation analysis are provided in the full write-up.
 ---
 
 ## Repository Structure
+
+├── README.md # Project overview (this file)
+├── analysis.md # Full methodological write-up and results
+└── notebooks/ # Reproducible analysis pipeline
+
+---
+
+## How to Reproduce
+
+1. Open the main notebook in `notebooks/` using Jupyter or Google Colab  
+2. Install required Python packages listed in the notebook  
+3. Provide the labeled Q&A CSV where indicated  
+4. Run the notebook top-to-bottom to reproduce results and figures  
+
+The pipeline is deterministic aside from LLM-based labeling steps, which are documented in `analysis.md`.
+
+---
+
+## Notes
+
+This project was completed as part of an advanced applied machine learning course in economics and is intended to demonstrate the use of LLMs as **measurement tools**, not black-box predictors, in economic research.
+
