@@ -208,7 +208,7 @@ This project demonstrates that Chair Powell’s press conference communication i
 ---
 
 ## Appendix A — Q&A Extraction Prompt
-*You are extracting question–answer (Q&A) pairs from a Federal Reserve press conference transcript.
+You are extracting question–answer (Q&A) pairs from a Federal Reserve press conference transcript.
 
 Rules:
 - A Q&A pair is ONE question and its immediate answer by the Chair.
@@ -229,10 +229,10 @@ Schema:
 }
 
 Transcript:
-<<TRANSCRIPT>>*
+<<TRANSCRIPT>>
 
 ## Appendix B — Forward-Looking Prompt
-*You are labeling a Q&A pair.
+You are labeling a Q&A pair.
 
 Forward-looking (1):
 - Discusses future economic conditions
@@ -248,10 +248,10 @@ Return STRICT JSON ONLY:
 {"forward_looking": 1 or 0}
 
 Q&A:
-<<QA>>*
+<<QA>>
 
 ## Appendix C — Certainty Prompt
-*You are labeling a Q&A pair.
+You are labeling a Q&A pair.
 
 Certain (1):
 - Presents information definitively
@@ -267,10 +267,10 @@ Return STRICT JSON ONLY:
 {"certain": 1 or 0}
 
 Q&A:
-<<QA>>*
+<<QA>>
 
 ## Appendix D — Hawkish/Dovish Prompt
-*You are labeling the monetary policy TONE of a Federal Reserve Chair's answer.
+You are labeling the monetary policy TONE of a Federal Reserve Chair's answer.
 
 Definitions:
 - Hawkish (2):
@@ -292,4 +292,4 @@ Return STRICT JSON ONLY:
 {"hawk_dove_neutral": 0 or 1 or 2}
 
 Answer:
-<<ANSWER>>*
+<<ANSWER>>
