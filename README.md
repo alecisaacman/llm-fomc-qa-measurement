@@ -68,20 +68,22 @@ Detailed results and correlation analysis are provided in the full write-up.
 
 ## Repository Structure
 
-├── README.md # Project overview (this file)
-├── analysis.md # Full methodological write-up and results
-└── notebooks/ # Reproducible analysis pipeline
+```text
+.
+├── README.md        # Project overview (this file)
+├── analysis.md      # Full methodological write-up and results
+└── notebooks/       # Reproducible analysis pipeline
 
----
 
+```markdown
 ## How to Reproduce
 
-1. Open the main notebook in `notebooks/` using Jupyter or Google Colab  
-2. Install required Python packages listed in the notebook  
-3. Provide the labeled Q&A CSV where indicated  
-4. Run the notebook top-to-bottom to reproduce results and figures  
+1. Open the main notebook in the `notebooks/` directory using Jupyter or Google Colab.
+2. Install the required Python packages listed at the top of the notebook.
+3. Ensure the labeled Q&A CSV file is available at the path specified in the notebook.
+4. Run the notebook top-to-bottom to reproduce all tables and figures.
 
-The pipeline is deterministic aside from LLM-based labeling steps, which are documented in `analysis.md`.
+LLM-based labeling steps are documented in detail in `analysis.md`.
 
 ---
 
