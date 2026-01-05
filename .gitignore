@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Raw transcripts / large text
+*.txt
+
+# Intermediate data
+*_intermediate.*
+*_temp.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
